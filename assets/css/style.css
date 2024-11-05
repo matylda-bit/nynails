@@ -1103,7 +1103,7 @@ img {
 .theme-btn-s3.theme-btn-s3,
 .theme-btn-s4.theme-btn-s3 {
   border-radius: 50%;
-  background-color: #800000;
+  background-color: #ffd700;
 
 }
 .theme-btn.theme-btn-s3:after,
@@ -1115,7 +1115,7 @@ img {
 .theme-btn.theme-btn-s4,
 .theme-btn-s3.theme-btn-s4,
 .theme-btn-s4.theme-btn-s4 {
-  background: #cca945;
+  background: #9caf;
   color: #fff;
 }
 .theme-btn.theme-btn-s4:after,

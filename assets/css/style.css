@@ -7539,11 +7539,11 @@ static-hero-s4
 .story-section .story-timeline .img-holder {
   max-width: 330px;
   padding: 10px;
-  border: 2px dashed #b896c1;
+  border: 0.5px dashed #d9a656;
   border-radius: 50%;
   position: relative;
   z-index: 1;
-  background: pink;
+  background: lightyellow;
   margin: 0 auto;
 }
 .story-section .story-timeline .img-holder:before {

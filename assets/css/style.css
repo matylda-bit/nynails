@@ -886,7 +886,7 @@ img {
 
 /*** back to top **/
 .back-to-top {
-  background-color: #800208;
+  background-color: #FFD700;
   width: 45px;
   height: 45px;
   line-height: 45px; 
@@ -1028,7 +1028,7 @@ img {
   content: "";
   width: 100px;
   height: 1px;
-  background: #767676;
+  background: #FFD700;
 }
 @media (max-width: 575px) {
   .wpo-section-title .section-title-img::before, .wpo-section-title .section-title-img::after,
@@ -5014,8 +5014,8 @@ img {
   font-size: 100px;
   font-weight: 500;
   font-family: 'Abril Fatface', cursive;
-  color: #228657;
-  text-shadow: 1px 1px 2px #800000, 0 0 1em greenyellow, 0 0 0.2em greenyellow;
+  color: #FFD700;
+  text-shadow: 1px 1px 2px black;
 }
 @media (max-width: 767px) {
   .wpo-hero-style-3 .wedding-announcement .couple-text h2 {
@@ -5031,7 +5031,7 @@ img {
   font-size: 30px;
   font-family: "Futura PT";
   color: 800000;
-  text-shadow: 1px 1px 2px green, 0 0 1em greenyellow, 0 0 0.2em greenyellow;
+  text-shadow: 1px 1px 2px rgb(8, 113, 89);;
 }
 @media (max-width: 767px) {
   font-weight: 500;
@@ -7298,7 +7298,7 @@ static-hero-s4
 .couple-section{
   /*background: url(../images/about.webp) center center no-repeat fixed;
   background-size: cover;*/
-  background: #800000;
+  background: #b2d8b2;
 }
 @media (max-width: 991px) {
   .couple-section .couple-area > div {
@@ -7357,7 +7357,7 @@ static-hero-s4
   border-top-left-radius: 150px;
   border-bottom-right-radius: 150px;
   padding: 60px 20px 40px;
-  background:#228657 ;
+  background:#b2d8b2; ;
 }
 @media (max-width: 1399px) {
   .couple-section .text-grid {

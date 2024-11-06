@@ -187,10 +187,10 @@ Version:        1.0.0
 /* Frame styling */
 .frame {
   padding: 10px;                  /* Space between border and image */
-  border: 5px solid #b896c1;          /* Frame border */
+  border: 5px solid lightgreen;          /* Frame border */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Shadow effect */
   border-radius: 15px;             /* Optional: Rounded corners */
-  background-color: #17af42;          /* Frame background color */
+  background-color: lightgreen;          /* Frame background color */
   text-align: center;
 
 }
@@ -417,7 +417,7 @@ Version:        1.0.0
   padding: 30px;
   border-radius: 15px;
   text-align: ;
-  background-image: linear-gradient(315deg, rgb(141, 231, 136) 0%,rgb(4, 255, 0));
+  background-image: linear-gradient;
   opacity:0;
   transition: .8s;
 }
@@ -604,7 +604,7 @@ h3 {
 {
     padding: 8px;
     font-size: 14pt;
-    color: #1cb536;
+    color: #98FF98;
 }
 .line 
 {
@@ -696,7 +696,7 @@ html {
 body {
   font-family: "Muli";
   color: #000;
-  background-color: #228b57
+  background-color: #f5f5dc;
   ;
   font-size: 15px;
   font-size: 1rem;
@@ -886,7 +886,7 @@ img {
 
 /*** back to top **/
 .back-to-top {
-  background-color: #FFD700;
+  background-color: gold;
   width: 45px;
   height: 45px;
   line-height: 45px; 
@@ -913,7 +913,7 @@ img {
 .back-to-top i {
   font-size: 18px;
   font-size: 1.2rem;
-  color: #fff;
+  color: orange;
   position: absolute;
   left: 50%;
   top: 50%;
@@ -1028,7 +1028,7 @@ img {
   content: "";
   width: 100px;
   height: 1px;
-  background: #FFD700;
+  background: gold;
 }
 @media (max-width: 575px) {
   .wpo-section-title .section-title-img::before, .wpo-section-title .section-title-img::after,
@@ -1115,7 +1115,7 @@ img {
 .theme-btn.theme-btn-s4,
 .theme-btn-s3.theme-btn-s4,
 .theme-btn-s4.theme-btn-s4 {
-  background: #9caf;
+  background: #cca945;
   color: #fff;
 }
 .theme-btn.theme-btn-s4:after,
@@ -1130,7 +1130,7 @@ img {
 .theme-btn-s4:hover,
 .theme-btn-s4:focus,
 .theme-btn-s4:active {
-  background: pink;
+  background: #9caf;
   color: grey;
 }
 .theme-btn:hover:after, .view-cart-btn:hover:after, .theme-btn:focus:after, .view-cart-btn:focus:after, .theme-btn:active:after, .view-cart-btn:active:after,
@@ -4820,7 +4820,8 @@ img {
   float: left;
 }
 @media (max-width: 991px) {
-  .static-hero-s2 .couple-area > div {
+  .static-hero-s2 .couple-area > 
+  div {
     float: none;
   }
 }
@@ -5014,7 +5015,7 @@ img {
   font-size: 100px;
   font-weight: 500;
   font-family: 'Abril Fatface', cursive;
-  color: #FFD700;
+  color: rgba(255, 217, 0, 0.943);
   text-shadow: 1px 1px 2px black;
 }
 @media (max-width: 767px) {
@@ -5031,7 +5032,7 @@ img {
   font-size: 30px;
   font-family: "Futura PT";
   color: 800000;
-  text-shadow: 1px 1px 2px rgb(8, 113, 89);;
+  text-shadow: 1px 1px 2px rgb(8, 113, 89);
 }
 @media (max-width: 767px) {
   font-weight: 500;
@@ -7298,7 +7299,7 @@ static-hero-s4
 .couple-section{
   /*background: url(../images/about.webp) center center no-repeat fixed;
   background-size: cover;*/
-  background: #b2d8b2;
+  background: #b2d8c2;
 }
 @media (max-width: 991px) {
   .couple-section .couple-area > div {
@@ -7357,7 +7358,7 @@ static-hero-s4
   border-top-left-radius: 150px;
   border-bottom-right-radius: 150px;
   padding: 60px 20px 40px;
-  background:#b2d8b2; ;
+  background:#f5f5f5;
 }
 @media (max-width: 1399px) {
   .couple-section .text-grid {
@@ -9100,7 +9101,7 @@ static-hero-s4
   border-radius: 40px;
 }
 .cart-area .submit-btn-area button:hover {
-  background: #767676;
+  background: #b2d8b2;
 }
 .cart-area .submit-btn-area .theme-btn-s4 {
   text-transform: capitalize;
@@ -12043,13 +12044,13 @@ static-hero-s4
   text-align: center;
   padding: 40px 20px;
   min-height:300px;
-  background: #cbf55c;
+  background:#AADA9F ;
   border-radius: 50%;
 }
 .wpo-contact-pg-section .office-info .office-info-item .office-info-icon {
   width: 85px;
   height: 85px;
-  background: #cbf55c;
+  background: #76c893;
   line-height: 85px;
   text-align: center;
   margin: 0 auto;
@@ -12057,7 +12058,7 @@ static-hero-s4
 }
 .wpo-contact-pg-section .office-info .office-info-item .office-info-icon .icon .fi:before {
   font-size: 35px;
-  color: #767676;
+  color: purple;
 }
 .wpo-contact-pg-section .office-info .office-info-item .office-info-text h2 {
   font-size: 40px;
@@ -12070,7 +12071,7 @@ static-hero-s4
 }
 .wpo-contact-pg-section .wpo-contact-form-area {
   padding: 50px;
-  background: #f5e1bc;
+  background: #AADA9F;
   box-shadow: 0px 1px 15px 0px rgba(62, 65, 159, 0.1);
   padding-bottom: 0;
   margin-bottom: -125px;
